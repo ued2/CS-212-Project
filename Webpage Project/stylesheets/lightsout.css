@@ -1,0 +1,55 @@
+#lightsout * {
+  box-sizing: border-box;
+}
+#lightsout{
+  width: 10em;
+  margin: auto;
+}
+
+#lightsout-timer{
+  width:3em;
+  font-size: 2em;
+  color:var(--heading);
+  text-align: center;
+  margin:auto;
+  
+}
+
+#lightsout-board{
+  font-size: 2em;
+  height:5em;
+  width: 5em;
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  background-color: rgb(90,90,90);
+  
+  margin:auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  
+}
+
+.lightsout-square{
+  width: 1em;
+  height: 1em;
+  grid-row-start:auto;
+  grid-column-start:auto;
+  border: 1px solid black;
+  
+}
+
+.js-lightsout-square-on {
+    background-color: white;
+}
+
+#lightsout-newgame-btn{
+  display:block;
+  
+  margin: auto;
+  margin-bottom: 20px;
+  padding-top: 0.3em;
+  
+}
+
+

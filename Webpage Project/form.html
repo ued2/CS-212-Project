@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Form</title>
+      <link href="stylesheets/layout.css" type="text/css" rel="stylesheet"/>
+      <link href="stylesheets/presentation.css" type="text/css" rel="stylesheet"/>
+</head>
+<div class="container">
+<body>
+
+    <side>
+    <ul><a href="index.html">Home</a></ul>
+    <ul><a href="passion1.html">Cryptocurrency</a></ul>
+    <ul><a href="passion2.html">Reselling</a></ul>
+    <ul><a href="about_me.html">About Me</a></ul>
+    <ul><a href="lightsout.html">Lights Out</a></ul>
+    <ul><a href="fetch.html">Current Weather</a></ul>
+    <ul><a href="forms.html">Form</a></ul>
+    </side>
+    
+  <article>
+    <section >
+    <form>
+      <h2>Name:
+      <input type="text" name="name">
+      </h2>
+      <h2>Email:
+      <input type="email" name="email">
+      </h2>
+      <h2>Number:
+      <input type="tel" name="phone-number"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      </h2>
+      <legend class="legend"> Favorite Fast Food</legend>
+
+      <div class="form">
+      <input type="radio" name="food" value="Dominos">
+      <label for="Dominos">Dominos</label> 
+      <input type="radio" name="food" value="FiveGuys">
+      <label for="FiveGuys">FiveGuys</label>
+      </div>
+
+      <div class="form">
+      <input type="radio" name="food" value="McDonalds">
+      <label for="McDonalds">McDonalds</label>
+      <input type="radio" name="food" value="Wendys">
+      <label for="Wendys">Wendys</label>
+      </div>
+
+      <legend class="legend"> Message </legend>
+      <div style="text-align: center">
+      <textarea name="message" style="width: 263px; height: 106px">  </textarea>
+      </div>
+      <div style="text-align: center">
+      <input type="submit" name="submit" value="Submit Message">
+      </div>
+
+    </form>
+    </section>
+  </article>
+   
+<footer>Copyright &copy; 2018 Ugo Dike</footer>
+</body>
+</div>
+</html>
